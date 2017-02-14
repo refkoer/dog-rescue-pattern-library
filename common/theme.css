@@ -1,12 +1,12 @@
 :root {
-  --color-primary: goldenrod;
-  --color-primary-light: gold;
-  --color-secondary: lightcoral;
-  --color-accent: greenyellow;
-  --color-neutral-beige: #e2e2e2;
-  --color-whatever: peachpuff;
+  --color-primary: #F495B6;
+  --color-primary-light: #FFC5DB;
+  --color-secondary: #84D1DD;
+  --color-accent: #FF5294;
+  --color-neutral-blue: #31A4AA;
+  --color-whatever: #00D2E8;
 
-  --font-primary: "Alegreya Sans", "Trebuchet MS", arial, sans-serif;
+  --font-primary: "Alegreya San", "Trebuchet MS", arial, sans-serif;
   --font-secondary: "Source Code Pro", menlo, consolasm, monospace;
 
 }
@@ -33,4 +33,10 @@ blockquote {
 em, strong, del, ins, abbr, dfn, i, b, mark, q, s, u {
   font-family: var(--font-secondary);
   color: var(--color-primary-light);
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
 }
