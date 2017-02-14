@@ -6,37 +6,38 @@
   --color-neutral-blue: #31A4AA;
   --color-whatever: #00D2E8;
 
-  --font-primary: "Alegreya San", "Trebuchet MS", arial, sans-serif;
-  --font-secondary: "Source Code Pro", menlo, consolasm, monospace;
-
+  --font-primary: "Roboto", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-secondary);
-  color: var(--color-neutral-beige);
+h1, h2, h3 {
+  color: var(--color-whatever);
+}
+
+h4, h5, h6 {
+  color: var(--color-neutral-blue);
 }
 
 ul, ol, dl {
-  font-family: var(--font-primary);
   color: var(--color-primary);
 }
 
 blockquote {
-  font-family: var(--font-primary);
   color: var(--color-primary-light);
 }
 
 em, strong, del, ins, abbr, dfn, i, b, mark, q, s, u {
-  font-family: var(--font-secondary);
   color: var(--color-primary-light);
 }
 
 a {
   text-decoration: none;
-  font-family: var(--font-primary);
   color: var(--color-primary);
+}
+
+mark {
+  background-color: var(--color-whatever);
 }
