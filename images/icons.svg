@@ -1,0 +1,22 @@
+<svg>
+  <symbol id="icon" viewBox="0 0 775.7 44">
+    <g id="hamburger">
+      <path d="M742.3 35.7h36v-4h-36zm0-10h36v-4h-36zm0-14v4h36v-4z" transform="translate(-2.7 -1.7)"/>
+    </g>
+    <g id="x_button" data-name="x button">
+      <path d="M627 12.5l-2.8-2.8L613 20.8 601.8 9.7l-2.8 2.8 11.2 11.2L599 34.8l2.8 2.8L613 26.5l11.2 11.2 2.8-2.8-11.2-11.2z" transform="translate(-2.7 -1.7)"/>
+    </g>
+    <g id="alert">
+      <path d="M463.7 33.7h4v-12h-4zm2-30a20 20 0 1 0 20 20 20 20 0 0 0-20-20zm0 36a16 16 0 1 1 16-16 16 16 0 0 1-16 16zm-2-22h4v-4h-4z" transform="translate(-2.7 -1.7)"/>
+    </g>
+    <g id="option">
+      <path d="M171 15.7a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm0 4a4 4 0 1 0 4 4 4 4 0 0 0-4-4zm0 12a4 4 0 1 0 4 4 4 4 0 0 0-4-4z" transform="translate(-2.7 -1.7)"/>
+    </g>
+    <g id="refresh">
+      <path d="M318.3 11.7v6l8-8-8-8v6a16 16 0 0 0-13.5 24.5l2.9-2.9a11.9 11.9 0 0 1-1.4-5.6 12 12 0 0 1 12-12zm13.5 3.5l-2.9 2.9a11.9 11.9 0 0 1 1.4 5.6 12 12 0 0 1-12 12v-6l-8 8 8 8v-6a16 16 0 0 0 13.5-24.5z" transform="translate(-2.7 -1.7)"/>
+    </g>
+    <g id="send">
+      <path d="M2.7 41.7l42-18-42-18v14l30 4-30 4z" transform="translate(-2.7 -1.7)"/>
+    </g>
+  </symbol>
+</svg>
