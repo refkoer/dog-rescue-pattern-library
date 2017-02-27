@@ -16,6 +16,5 @@ allFiles:
     valid: true
     bestPractices: true
 
-md:
-  valid: true
-  
+  md:
+    valid: true
