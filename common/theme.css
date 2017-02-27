@@ -1,10 +1,10 @@
 :root {
-  --color-primary: #F495B6;
-  --color-primary-light: #FFC5DB;
-  --color-secondary: #84D1DD;
-  --color-accent: #FF5294;
-  --color-neutral-blue: #31A4AA;
-  --color-whatever: #00D2E8;
+  --color-primary: #f495b6;
+  --color-primary-light: #ffC5db;
+  --color-secondary: #84d1dd;
+  --color-accent: #ff5294;
+  --color-neutral-blue: #31a4aa;
+  --color-whatever: #00d2e8;
 
   --font-primary: "Roboto", sans-serif;
 }
