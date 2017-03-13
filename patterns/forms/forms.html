@@ -9,14 +9,19 @@
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/theme.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Overpass:400,400i,700" rel="stylesheet">
-  <link href="cards.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
 </head>
 <body>
+  <div class="header max length">
+    <h1 class="text-center yotta">Registration Form</h1>
+  </div>
+
   <form class="max-length" method="post" novalidate>
     <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
       <h3 class="push-0">
-        <i class="icon i-32"><svg><use xlink:href="images.icons.svg#error" /></svg></i>
-        <span class="icon-label">There are items that require your attention</span>
+        <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label milli text-center">Please fill the required fields</span>
       </h3>
     </div>
 
@@ -24,7 +29,7 @@
       <label for="name">Name</label>
       <input id="name" required aria-describedby="name-error">
       <p class="error-message milli island-1-4 push-0" id="name-error">
-        <i class="icon i-32"><svg><use xlink:href="images.icons.svg#error" /></svg></i>
+        <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
         <span class="icon-label">Please provide a name</span>
       </p>
     </div>
@@ -33,7 +38,7 @@
       <label for="email">Email</label>
       <input type="email" id="email" required aria-describedby="email-error">
       <p class="error-message milli island-1-4 push-0" id="email-error">
-        <i class="icon i-32"><svg><use xlink:href="images.icons.svg#error" /></svg></i>
+        <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
         <span class="icon-label">Please provide a properly formatted email address</span>
       </p>
     </div>
@@ -43,12 +48,35 @@
       <input type="url" id="url">
     </div>
 
+    <div class="push-1-2">
+      <label for="name">Address</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide a your adress</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="choices">Card type</label>
+      <select id="choices" required aria-describedby="name-error">
+        <option value=""></option>
+        <option>Visa</option>
+        <option>American Express</option>
+        <option>Debit</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please select a card type</span>
+      </p>
+    </div>
+
     <div class="push-1-2 pad-t-1-2">
       <input type="checkbox" id="agree" required aria-describedby="agree-error">
-      <label for="agree">I'm totally awesome</label>
+      <label for="agree">I agree to Terms and Conditions</label>
       <p class="error-message milli island-1-4 push-0" id="agree-error">
         <i class="icon i-32"><svg><use xlink:href="images.icons.svg#error" /></svg></i>
-        <span class="icon-label">Please agree that you're totally awesome</span>
+        <span class="icon-label">Agree to continue</span>
       </p>
     </div>
 
