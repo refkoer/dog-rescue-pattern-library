@@ -2,20 +2,30 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Buttons</title>
+  <title>FAB</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="../../common/modules.css" rel="stylesheet">
   <link href="../../common/grids.css" rel="stylesheet">
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/theme.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Overpass:400,400i,700" rel="stylesheet">
-  <link href="buttons.css" rel="stylesheet">
+  <link href="../buttons/buttons.css" rel="stylesheet">
+  <link href="fab.css" rel="stylesheet">
 
 </head>
 <body>
-  <a class="btn island-1-2" href="#">Standard button</a>
-  <a class="btn btn-light island-1-2" href="#">Light button</a>
-  <a class="btn btn-ghost island-1-2" href="#">Ghost button</a>
-
+  <nav>
+    <ol class="max-width text-center list-group-inline">
+      <li class="island-1-2 btn-ghost">
+        <a href="#">< Previous Page</a>
+      </li>
+      <li>
+        <h1 class="peta">|</h1>
+      </li>
+      <li class="island-1-2 btn-ghost">
+        <a href="#">Next Page> </a>
+      </li>
+    </ol>
+  </nav>
 </body>
 </html>
