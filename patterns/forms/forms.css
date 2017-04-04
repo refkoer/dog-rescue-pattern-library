@@ -29,10 +29,10 @@ html {
   display: block;
 }
 
-span {
+.span {
   color: var(--color-neutra-blue);
 }
 
-label {
+.label {
   color: var(--color-primary);
 }

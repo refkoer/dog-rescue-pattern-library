@@ -16,6 +16,6 @@ html {
   box-sizing: inherit;
 }
 
-ol {
+.ol {
   background-color: var(--color-primary);
 }
