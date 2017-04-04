@@ -25,7 +25,6 @@
   border-color: var(--color-primary);
   transform: scale(1.2);
   transition: ease-in 120ms;
-  z-index: 2;
   background-color: var(--color-secondary);
   color: #fff;
   position: relative;
