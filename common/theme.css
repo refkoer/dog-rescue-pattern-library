@@ -11,34 +11,41 @@
 }
 
 html {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 h1, h2, h3 {
   color: var(--color-whatever);
+  font-family: var(--font-primary);
 }
 
 h4, h5, h6 {
   color: var(--color-neutral-blue);
+  font-family: var(--font-primary);
 }
 
 ul, ol, dl {
   color: var(--color-primary);
+  font-family: var(--font-primary);
 }
 
 blockquote {
   color: var(--color-primary-light);
+  font-family: var(--font-primary);
 }
 
 em, strong, del, ins, abbr, dfn, i, b, mark, q, s, u {
   color: var(--color-primary-light);
+  font-family: var(--font-primary);
 }
 
 a {
   text-decoration: none;
   color: var(--color-primary);
+  font-family: var(--font-primary);
 }
 
 mark {
   background-color: var(--color-whatever);
+  font-family: var(--font-primary);
 }
