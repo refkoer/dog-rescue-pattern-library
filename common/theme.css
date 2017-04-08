@@ -49,3 +49,7 @@ mark {
   background-color: var(--color-whatever);
   font-family: var(--font-primary);
 }
+
+p {
+  font-family: var(--font-parimary);
+}
