@@ -32,13 +32,13 @@
       <nav>
         <ol class="max-width text-center list-group-inline ol">
           <li class="island-1-2">
-            <a href="#about-us" class="btn">ABOUT</a>
+            <a href="index.html" class="btn">ABOUT</a>
           </li>
           <li class="island-1-2">
             <a href="dogs-page.html" class="btn">DOGS</a>
           </li>
           <li class="island-1-2">
-            <a href="forms-page.html" class="btn">AWARENESS</a>
+            <a href="#forms" class="btn">AWARENESS</a>
           </li>
           <li class="island-1-2">
             <a href="#" class="btn">DONATIONS</a>
@@ -48,15 +48,88 @@
     </div>
   </header>
 
-  <main class="max-length" role="main" id="about-us">
-    <div class="grid push-0">
-      <section>
-        <div class="unit xs-1 s-1 m-1 l-1 island-1-2">
-          <h2 class="exa">About Us</h2>
-          <p class="milli">Gwendilin Boers founded Birch Haven Rescue & Rehabilitation Services (BHRR) in the spring of 1996 when she began assisting in the effort to close down a puppy mill in Quebec, Canada. Along with her husband’s Sean’s support, she is part of the love and effort of BHRR along with their volunteers, assistance from other Rescues plus their Vets, sponsors, family, neighbours and friends.Gwendilin‘s mantra is “Together we are all the ‘links’ making strong what I call the ‘chain of success’.” In the spring of 1999, she had the wonderful privilege of connecting with Krys Pritchard from Trinity of Hope Dog Rescue(THDR) and at that same time back in 1999; Gwendilin and her husband Sean became a foster failure to one of THDR’s NewfX’s, Kona; who sadly crossed over on March 30th, 2012; just shy of her 13th birthday<br>In 1996; Gwendilin also founded the BHRR Therapy Dog program; thus creating the now very popular concept of ‘corporate’ therapy. In 2001; BHRR began to expand into assisting with Equine Rescue and their Rehabilitation.<br> Gwendilin’s focus has been in the educational awareness, protection and love of Giant Breeds plus Equines.<br>In the fall of 2006; Gwendilin entered the world of dog showing and in June of 2007, she finished her very first show dog in just 7 months; a natural eared Harlequin Great Dane, Dyce. They accomplished something very special(research reveals that they are the first in Canada to do this); as Gwendilin was a first-time show dog owner/handler with a natural eared Harlequin dog and he was exclusively owner/handled to his CH. title. Her second show Great Dane; a Blue, Bronson; entered the ring at the end of 2007 and became a Champion in May of 2008 in just 5 months of showing and is now a Multi Champion. Her third show dog, TAIN; a 100% European bred blue Great Dane is also a proven Multi Champion and finished his first championship title at 14 months of age in October of 2009. Gwen’s fourth show dog, a mantle boy arrived in September of 2010 and he has obtained his own first CH. title at the young age of just 13 months in September of 2011. He is also now a proven Multi Champion. <br> Gwendilin strongly believes that as someone dedicated to animal welfare; she can do her part in assisting plus working together with reputable/quality Breeders to ‘preserve’ the Great Dane Breed standard by showing/handling/competing with the dogs to various titles and thereby also gaining added confirmation of true temperament plus conformation of Breed Standards. Gwen is not a Breeder and has never bred a litter. She believes there is FAR more to breeding than earning a Ch. title or two or the putting together of two dogs. <br>Gwendilin has been doing positive method animal behavoural modification/rehabilitation plus training for almost 28 years. She has been the behavioural ‘expert’ in numerous cruelty and court cases plus for a vast number of organizations plus groups. She has travelled all across North America to present on Giant Breed health, nutrition, exercise, training plus other animal welfare topics including doing talks in areas such as BHRR ‘second’ to none success rate. Additionally, in 2009; Gwendilin was requested to be a guest speaker in Dublin, Ireland. She has been a frequent invitee on television programs such as RTV 22’s Rogers Ottawa Daytime and CBC’s Living in Ottawa.</p>
-        </div>
-      </section>
+  <main id="form" class="max-length">
+    <div>
+      <h1 class="exa">Sign-up with us!</h1>
+      <p class="milli">I have decided to start this page so that people can be made aware of why BHRR exists and what we deal with on a daily basis.
+When you have an animal, it is YOUR responsibility to do 'right' by them and it is a life time commitment made to them that should consist of love, patience & kindness on top of the essentials of  proper proactive/preventative Vetting, training, food, water and a soft warm place to rest their head when sleeping.
+If you are thinking about adopting a BHRR animal, please note that the Board of Directors of BHRR's responsibility and commitment is to ensure that THEY, the Animals never end up in such a physical and emotional state ever again, killed or back in Rescue.
+Before contacting us, please read Application & Fees and Before Applying</p>
     </div>
+
+    <div class="header max length">
+      <h2 class="tera">Registration Form</h2>
+    </div>
+
+    <form class="max-length" method="post" novalidate>
+      <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+        <h3 class="push-0">
+          <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label milli text-center span">Please fill the required fields</span>
+        </h3>
+      </div>
+
+      <div class="push-1-2">
+        <label class="label" for="name">Name</label>
+        <input id="name" required aria-describedby="name-error">
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label span">Please provide a name</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label class="label" for="email">Email</label>
+        <input type="email" id="email" required aria-describedby="email-error">
+        <p class="error-message milli island-1-4 push-0" id="email-error">
+          <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label span">Please provide a properly formatted email address</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label class="label" for="url">Website <em class="flag-otional milli normal">(optional)</em></label>
+        <input type="url" id="url">
+      </div>
+
+      <div class="push-1-2">
+        <label class="label" for="name">Address</label>
+        <input id="address" required aria-describedby="address-error">
+        <p class="error-message milli island-1-4 push-0" id="address-error">
+          <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label span">Please provide a your adress</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label class="label" for="choices">Card type</label>
+        <select id="choices" required aria-describedby="name-error">
+          <option value="">---</option>
+          <option>Visa</option>
+          <option>American Express</option>
+          <option>Debit</option>
+        </select>
+        <p class="error-message milli island-1-4 push-0" id="card-error">
+          <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label span">Please select a card type</span>
+        </p>
+      </div>
+
+      <div class="push-1-2 pad-t-1-2">
+        <input type="checkbox" id="agree" required aria-describedby="agree-error">
+        <label class="label" for="agree">I agree to Terms and Conditions</label>
+        <p class="error-message milli island-1-4 push-0" id="agree-error">
+          <i class="icon i-32"><svg><use xlink:href="images.icons.svg#error" /></svg></i>
+          <span class="icon-label span">Agree to continue</span>
+        </p>
+      </div>
+
+      <div class="pad-t-1-2">
+        <button class="btn" type="submit">Send</button>
+      </div>
+    </form>
+
+    <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
   </main>
 
   <footer>
