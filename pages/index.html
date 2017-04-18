@@ -16,6 +16,7 @@
   <link href="../patterns/forms/forms.css" rel="stylesheet">
   <link href="../patterns/nav/nav.css" rel="stylesheet">
   <link href="../patterns/photo-array/photo-array.css" rel="stylesheet">
+  <link href="../patterns/carousel/carousel.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Overpass:400,400i,700|Slabo+13px|Slabo+27px" rel="stylesheet">
 </head>
 <body>
@@ -49,11 +50,67 @@
   </header>
 
   <main class="max-length" role="main" id="about-us">
-    <div class="grid push-0">
+    <section>
+      <div class="carousel">
+        <input class="carousel-input" type="radio" name="mammals" id="dog-1-control" checked>
+        <input class="carousel-input" type="radio" name="mammals" id="dog-2-control">
+        <input class="carousel-input" type="radio" name="mammals" id="dog-3-control">
+        <input class="carousel-input" type="radio" name="mammals" id="dog-4-control">
+
+        <div class="carousel-inner relative">
+          <div class="carousel-items">
+            <div class="carousel-item embed embed-golden" id="dog-1">
+              <img class="embed-item" src="../images/production/dog-1.jpg" alt="">
+            </div>
+
+            <div class="carousel-item embed embed-golden" id="dog-2">
+              <img class="embed-item" src="../images/production/dog-2.jpg" alt="">
+            </div>
+
+            <div class="carousel-item embed embed-golden" id="dog-3">
+              <img class="embed-item" src="../images/production/dog-3.jpg" alt="">
+            </div>
+
+            <div class="carousel-item embed embed-golden" id="dog-4">
+              <img class="embed-item" src="../images/production/dog-4.jpg" alt="">
+            </div>
+
+            <ul class="carousel-controls list-group-inline pin-bc w-1 text-center push-0 island-1-2 absolute">
+              <li>
+                <label class="carousel-btn icon i-18 ir" for="dog-1-control">dog-1</label>
+              </li>
+              <li>
+                <label class="carousel-btn icon i-18 ir" for="dog-2-control">dog-2</label>
+              </li>
+              <li>
+                <label class="carousel-btn icon i-18 ir" for="dog-3-control">dog-3/label>
+              </li>
+              <li>
+                <label class="carousel-btn icon i-18 ir" for="dog-4-control">dog-4</label>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="push-0">
       <section>
-        <div class="unit xs-1 s-1 m-1 l-1 island-1-2">
+        <div class="island-1-2">
           <h2 class="exa">About Us</h2>
-          <p class="milli">Gwendilin Boers founded Birch Haven Rescue & Rehabilitation Services (BHRR) in the spring of 1996 when she began assisting in the effort to close down a puppy mill in Quebec, Canada. Along with her husband’s Sean’s support, she is part of the love and effort of BHRR along with their volunteers, assistance from other Rescues plus their Vets, sponsors, family, neighbours and friends.Gwendilin‘s mantra is “Together we are all the ‘links’ making strong what I call the ‘chain of success’.” In the spring of 1999, she had the wonderful privilege of connecting with Krys Pritchard from Trinity of Hope Dog Rescue(THDR) and at that same time back in 1999; Gwendilin and her husband Sean became a foster failure to one of THDR’s NewfX’s, Kona; who sadly crossed over on March 30th, 2012; just shy of her 13th birthday<br>In 1996; Gwendilin also founded the BHRR Therapy Dog program; thus creating the now very popular concept of ‘corporate’ therapy. In 2001; BHRR began to expand into assisting with Equine Rescue and their Rehabilitation.<br> Gwendilin’s focus has been in the educational awareness, protection and love of Giant Breeds plus Equines.<br>In the fall of 2006; Gwendilin entered the world of dog showing and in June of 2007, she finished her very first show dog in just 7 months; a natural eared Harlequin Great Dane, Dyce. They accomplished something very special(research reveals that they are the first in Canada to do this); as Gwendilin was a first-time show dog owner/handler with a natural eared Harlequin dog and he was exclusively owner/handled to his CH. title. Her second show Great Dane; a Blue, Bronson; entered the ring at the end of 2007 and became a Champion in May of 2008 in just 5 months of showing and is now a Multi Champion. Her third show dog, TAIN; a 100% European bred blue Great Dane is also a proven Multi Champion and finished his first championship title at 14 months of age in October of 2009. Gwen’s fourth show dog, a mantle boy arrived in September of 2010 and he has obtained his own first CH. title at the young age of just 13 months in September of 2011. He is also now a proven Multi Champion. <br> Gwendilin strongly believes that as someone dedicated to animal welfare; she can do her part in assisting plus working together with reputable/quality Breeders to ‘preserve’ the Great Dane Breed standard by showing/handling/competing with the dogs to various titles and thereby also gaining added confirmation of true temperament plus conformation of Breed Standards. Gwen is not a Breeder and has never bred a litter. She believes there is FAR more to breeding than earning a Ch. title or two or the putting together of two dogs. <br>Gwendilin has been doing positive method animal behavoural modification/rehabilitation plus training for almost 28 years. She has been the behavioural ‘expert’ in numerous cruelty and court cases plus for a vast number of organizations plus groups. She has travelled all across North America to present on Giant Breed health, nutrition, exercise, training plus other animal welfare topics including doing talks in areas such as BHRR ‘second’ to none success rate. Additionally, in 2009; Gwendilin was requested to be a guest speaker in Dublin, Ireland. She has been a frequent invitee on television programs such as RTV 22’s Rogers Ottawa Daytime and CBC’s Living in Ottawa. </p>
+          <p class="milli">Gwendilin Boers founded Birch Haven Rescue & Rehabilitation Services (BHRR) in the spring of 1996 when she began assisting in the effort to close down a puppy mill in Quebec, Canada. Along with her husband’s Sean’s support, she is part of the love and effort of BHRR along with their volunteers, assistance from other Rescues plus their Vets, sponsors, family, neighbours and friends.Gwendilin‘s mantra is “Together we are all the ‘links’ making strong what I call the ‘chain of success’.” In the spring of 1999, she had the wonderful privilege of connecting with Krys Pritchard from Trinity of Hope Dog Rescue(THDR) and at that same time back in 1999; Gwendilin and her husband Sean became a foster failure to one of THDR’s NewfX’s, Kona; who sadly crossed over on March 30th, 2012; just shy of her 13th birthday</p>
+
+          <p class="milli">In 1996; Gwendilin also founded the BHRR Therapy Dog program; thus creating the now very popular concept of ‘corporate’ therapy. In 2001; BHRR began to expand into assisting with Equine Rescue and their Rehabilitation.<br> Gwendilin’s focus has been in the educational awareness, protection and love of Giant Breeds plus Equines.</p>
+
+          <p class="milli">In the fall of 2006; Gwendilin entered the world of dog showing and in June of 2007, she finished her very first show dog in just 7 months; a natural eared Harlequin Great Dane, Dyce.</p>
+
+          <p class="milli">They accomplished something very special(research reveals that they are the first in Canada to do this); as Gwendilin was a first-time show dog owner/handler with a natural eared Harlequin dog and he was exclusively owner/handled to his CH. title. Her second show Great Dane; a Blue, Bronson; entered the ring at the end of 2007 and became a Champion in May of 2008 in just 5 months of showing and is now a Multi Champion. Her third show dog, TAIN; a 100% European bred blue Great Dane is also a proven Multi Champion and finished his first championship title at 14 months of age in October of 2009. Gwen’s fourth show dog, a mantle boy arrived in September of 2010 and he has obtained his own first CH. title at the young age of just 13 months in September of 2011. He is also now a proven Multi Champion.</p>
+
+          <p class="milli">Gwendilin strongly believes that as someone dedicated to animal welfare; she can do her part in assisting plus working together with reputable/quality Breeders to ‘preserve’ the Great Dane Breed standard by showing/handling/competing with the dogs to various titles and thereby also gaining added confirmation of true temperament plus conformation of Breed Standards. Gwen is not a Breeder and has never bred a litter. She believes there is FAR more to breeding than earning a Ch. title or two or the putting together of two dogs.</p>
+
+          <p class="milli">Gwendilin has been doing positive method animal behavoural modification/rehabilitation plus training for almost 28 years. She has been the behavioural ‘expert’ in numerous cruelty and court cases plus for a vast number of organizations plus groups. She has travelled all across North America to present on Giant Breed health, nutrition, exercise, training plus other animal welfare topics including doing talks in areas such as BHRR ‘second’ to none success rate. Additionally, in 2009; Gwendilin was requested to be a guest speaker in Dublin, Ireland. She has been a frequent invitee on television programs such as RTV 22’s Rogers Ottawa Daytime and CBC’s Living in Ottawa. </p>
         </div>
       </section>
     </div>

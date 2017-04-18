@@ -1,4 +1,5 @@
 ---
+outputFile: "index.html"
 name: "Birch Haven"
 fontUrl: "https://fonts.googleapis.com/css?family=Roboto:400,900|Slabo+27px"
 fonts:
